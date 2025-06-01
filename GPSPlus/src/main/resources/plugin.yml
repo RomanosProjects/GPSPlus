@@ -1,0 +1,20 @@
+name: GPSPlus
+version: 1.0
+main: com.rromaanoprojects.GPSPlus.GPSPlus
+api-version: 1.16
+description: A GPS navigation system for Minecraft servers
+author: rromaanoprojects
+
+commands:
+  gpsplus:
+    description: Main command for GPSPlus plugin
+    usage: /gpsplus
+    aliases: [gps]
+
+permissions:
+  gpsplus.admin:
+    description: Allows creation and management of navigation nodes
+    default: op
+  gpsplus.use:
+    description: Allows using the GPS navigation system
+    default: true
